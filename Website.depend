@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1574862798 source:d:\devt\website\main.cpp
+	<iostream>
+
+1574863806 source:d:\devt\website\src\post.cpp
+	"Post.h"
+
+1574864390 d:\devt\website\include\post.h
+	<iostream>
+
+1574863602 source:d:\devt\website\src\member.cpp
+	"Member.h"
+
+1574864971 d:\devt\website\include\member.h
+	<iostream>
+	<User.h>
+
+1574865585 d:\devt\website\include\user.h
+	<iostream>
+
+1574863502 source:d:\devt\website\src\user.cpp
+	"User.h"
+
+1574864505 source:d:\devt\website\src\abstractcategory.cpp
+	"AbstractCategory.h"
+
+1574864505 d:\devt\website\include\abstractcategory.h
+
+1574864915 source:d:\devt\website\src\categoryfor.cpp
+	"CategoryFor.h"
+
+1574865090 d:\devt\website\include\categoryfor.h
+	<AbstractCategory.h>
+
+1574864915 source:d:\devt\website\src\categorycal.cpp
+	"CategoryCal.h"
+
+1574864777 d:\devt\website\include\categorycal.h
+	<AbstractCategory.h>
+
+1574864983 source:d:\devt\website\src\thread.cpp
+	"Thread.h"
+
+1574864983 d:\devt\website\include\thread.h
+
+1574865011 source:d:\devt\website\src\event.cpp
+	"Event.h"
+
+1574865056 d:\devt\website\include\event.h
+	<iostream>
+
+1574865152 source:d:\devt\website\src\guest.cpp
+	"Guest.h"
+
+1574865152 d:\devt\website\include\guest.h
+	<User.h>
+
