@@ -1,11 +1,19 @@
 #include "Thread.h"
 
-Thread::Thread()
+Thread::Thread(string _title)
 {
-    //ctor
+    objects.push_back(this);
+    title = _title;
 }
 
 Thread::~Thread()
 {
     //dtor
 }
+
+string Thread::getTitle( void )
+{
+   return title;
+}
+
+vector<Thread *> Thread::objects;

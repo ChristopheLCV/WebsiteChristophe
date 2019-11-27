@@ -10,12 +10,3 @@ Member::~Member()
     //dtor
 }
 
-bool Member::subscribeEvent(void)
-{
-
-}
-
-bool Member::unsubscribeEvent(void)
-{
-
-}

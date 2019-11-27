@@ -14,9 +14,7 @@ class Member : public User
 
         Member();
         virtual ~Member();
-        bool subscribeEvent(void);
-        bool unsubscribeEvent(void);
-    protected:
+     protected:
 
     private:
 };

@@ -1,6 +1,8 @@
 #ifndef POST_H
 #define POST_H
+#include"Thread.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Post
@@ -8,6 +10,8 @@ class Post
     public:
         string text;
         string author;
+        Thread *parent;
+        static vector<Post *> objects;
 
         Post();
         virtual ~Post();

@@ -1,6 +1,7 @@
 #ifndef USER_H
 #define USER_H
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class User
@@ -10,11 +11,13 @@ class User
 
         User();
         virtual ~User();
+        static vector<User *> objects;
 
         //getEvents()
-        virtual bool subscribeEvent(void) = 0;
-        virtual bool unsubscribeEvent(void) = 0;
+        bool subscribeEvent(void);
+        bool unsubscribeEvent(void);
         //isSubscribed()
+        virtual void toto ( void ) = 0;
     protected:
 
     private:
